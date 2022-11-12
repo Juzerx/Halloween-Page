@@ -1,0 +1,100 @@
+@import url("questions.css");
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(106, 31, 150);
+}
+@media(min-width: 1319px) {
+    #pumpkings {
+        width: 620px;
+        height: 400px;
+    }
+}
+@media(max-width: 1320px) {
+    #pumpkings {
+        width: 300px;
+        height: 215px;
+    }
+
+}
+
+h1 {
+    padding: 20px;
+    background-color: black;
+    color: chocolate;
+}
+#start {
+    padding: 10px;
+    padding-left: 2px;
+    background-color: aliceblue;
+}
+.boton {
+    background-color: chocolate;
+    color: rgb(14, 12, 10);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+}
+.boton:hover {
+    background-color: rgb(196, 121, 68);
+    cursor: pointer;
+}
+
+#quest {
+    padding: 10px 30px;
+    width: 300px;
+    background-color: black;
+    color: chocolate;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#htp {
+    display: inline-block;
+    width: 300px;
+    padding: 10px 30px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+#q {
+    padding: 20px;
+    background-color: black;
+    text-decoration-color: chocolate;
+    color: chocolate;
+    }
+#onequ {
+    display: inline-block;
+    background-color: black;
+    color: coral;
+    margin: 20px 40px;
+    padding: 20px;
+    border: 1px rgb(14, 12, 10);
+}
+#spooky {
+    width: 400px;
+}
+
+#by {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
